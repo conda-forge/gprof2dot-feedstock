@@ -1,5 +1,5 @@
 {% set name = "gprof2dot" %}
-{% set version = "2017.9.19" %}
+{% set version = "2019.11.30" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: cebc7aa2782fd813ead415ea1fae3409524343485eadc7fb60ef5bd1e810309e
+  sha256: b43fe04ebb3dfe181a612bbfc69e90555b8957022ad6a466f0308ed9c7f22e99
 
 build:
   number: 0
