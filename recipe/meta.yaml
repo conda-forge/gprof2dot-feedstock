@@ -1,5 +1,5 @@
 {% set name = "gprof2dot" %}
-{% set version = "2019.11.30" %}
+{% set version = "2022.7.29" %}
 
 package:
   name: {{ name|lower }}
@@ -7,14 +7,14 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: b43fe04ebb3dfe181a612bbfc69e90555b8957022ad6a466f0308ed9c7f22e99
+  sha256: 45b4d298bd36608fccf9511c3fd88a773f7a1abc04d6cd39445b11ba43133ec5
 
 build:
   number: 0
   entry_points:
     - gprof2dot=gprof2dot:main
   noarch: python
-  script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv "
+  script: '{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv '
 
 requirements:
   host:
