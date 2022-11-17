@@ -5,11 +5,9 @@ Home: https://github.com/jrfonseca/gprof2dot
 
 Package license: LGPL-2.1
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/gprof2dot-feedstock/blob/master/LICENSE.txt)
 
 Summary: Generate a dot graph from the output of several profilers.
-
-
 
 Current build status
 ====================
